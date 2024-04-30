@@ -1,0 +1,264 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, sans-serif;
+}
+/* <!-- ----------1st section-------- --> */
+.navbar{
+    height: 9vh;
+    position: fixed;
+    width: 100%;
+    background-color:white ;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 25px;
+    align-items: center;
+    letter-spacing: 4px;
+    box-shadow: 1px 1px 3px black;
+}
+.logo{
+    display: flex;
+    height: 0.1vh;
+    width: 14vw;
+    padding: 1vh 0vh 4vh 2vh;
+}
+.logo>p{
+    padding-left: 0.5vw;
+}
+.logo:hover{
+    cursor: pointer;
+    background-color: rgb(204, 204, 204);
+}
+.list>ul{
+    display: flex;
+    width: 500px;
+    list-style: none;
+    height: 4.5vh;
+}
+.list>ul>li{
+    padding-top: 8px;
+    box-sizing: border-box;
+    height: 135%;
+    width: 130px;
+    text-align: center;
+}
+.list>ul>li:hover{
+    cursor: pointer;
+    background-color: rgb(204, 204, 204);
+    box-sizing: border-box;
+}
+/* <!-- ----------1st section-------- --> */
+/* <!-- ----------2nd section-------- --> */
+.second{
+    height: 110vh;
+    width: 100%;
+    background-image: url(./images/architect.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    letter-spacing: 4px;
+    color: white;
+    background-size: 100% 125%;
+}
+.second>h1{
+    background-color: rgba(66, 65, 65, 0.918);
+    font-size: 36px;
+    height: 9vh;
+    width: 6vw;
+    text-align: center;
+    padding-top: 1vh;
+}
+.second>p{
+    padding-left: 1vw;
+
+}
+/* <!-- ----------2nd section-------- --> */
+/* <!-- ----------3rd section-------- --> */
+.third-one{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+.third-one>h3{
+font-weight: normal;
+margin:20px 0  0 50px;
+}
+.third-main{
+height: 70vh;
+width: 100%;
+margin-top: 5vh;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+}
+.third{
+    background-image: url(./images/house2.jpg);
+    height: 33vh;
+    background-size: 100% 100%;
+    width: 23%;
+}
+.third>h4{
+    background-color: black;
+    color: white;
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 6vh;
+    font-weight: normal;
+}
+.third-two{
+ background-image: url(./images/house5.jpg);
+}
+.third-four{
+background-image: url(./images/house3.jpg);
+}
+.third-five{
+background-image: url(./images/house4.jpg);
+}
+.third-seven{
+background-image: url(./images/house5.jpg);
+}
+.third-eight{
+background-image: url(./images/house4.jpg);
+}
+.third-nine{
+background-image: url(./images/house3.jpg);
+}
+/* <!-- ----------3rd section-------- --> */
+/* <!-- ----------4rth section-------- --> */
+.forth{
+    height: 10vh;
+    width: 97%;
+    border-bottom: 2px solid rgb(204, 204, 204);
+    display: flex;
+    align-items: center;
+    margin: 4vh 0 0 2vw;
+}
+.forth>h2{
+    font-weight: normal;
+}
+.forth-p{
+    height: 20vh;
+    width: 98%;
+    margin: 4vh 0 0 2vw;
+    letter-spacing: 0.5px;
+    line-height: 23px;
+}
+.main{
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    justify-content: space-evenly;
+}
+.same{
+    background-size: 100% 50%;
+    background-repeat: no-repeat;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.226),rgba(0, 0, 0, 0.308)),url(./images/team1.jpg);
+}
+.forth-two{
+    background-image: linear-gradient( rgba(0, 0, 0, 0.226),rgba(0, 0, 0, 0.308)),url(./images/team2.jpg);
+}
+.forth-three{
+    background-image: linear-gradient( rgba(0, 0, 0, 0.226),rgba(0, 0, 0, 0.308)),url(./images/team3.jpg);
+}.forth-four{
+    background-image: linear-gradient( rgba(0, 0, 0, 0.226),rgba(0, 0, 0, 0.308)),url(./images/team4.jpg);
+}
+.same{
+    height: 65vh;
+    width: 22%;
+}
+
+.same>h2{
+    margin-top: 39vh;
+    font-weight: normal;
+}
+.same>h4{
+    margin-top: 2vh;
+    font-weight: normal;
+    color: rgba(0, 0, 0, 0.562);
+}
+.same>p{
+    margin-top: 2vh;
+}
+.same>button{
+    height: 7vh;
+    width: 100%;
+    margin-top: 3vh;
+    background-color: rgba(0, 0, 0, 0.11);
+    font-size: 18px;
+    border: none;
+}
+.same>button:hover{
+    background-color: rgba(0, 0, 0, 0.432);
+    cursor: pointer;
+}
+/* <!-- ----------4rth section-------- --> */
+/* <!-- ----------5th section-------- --> */
+.fifth-h{
+    height: 8vh;
+    width: 96%;
+    border-bottom: 2px solid rgb(204, 204, 204);
+    display: flex;
+    align-items: center;
+    margin: 4vh 0 0 2vw;
+}
+.fifth-h>h3{
+    font-weight: normal;
+    font-size: 24px;
+}
+.fifth-p>p{
+    margin: 2vh 0 0 2vw;
+}
+#a{
+    height: 6vh;
+    width: 95%;
+    margin: 3vh 0 0 2vw;
+    padding-left: 1vw;
+    border: 1px solid rgba(0, 0, 0, 0.185);
+}
+.fifth-b{
+    margin-top: 5vh;
+}
+.fifth-b>button{
+    height: 6vh;
+    width: 12vw;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+}
+/* <!-- ----------5th section-------- --> */
+/* <!-- ----------6th section-------- --> */
+.sixth{
+    height: 90vh;
+    width: 96%;
+    margin: 12vh 0 0 2vw; 
+}
+.sixth>img{
+height: 100%;
+width: 100%;
+}
+.sixth-one{
+    height: 10vh;
+    width: 100%;
+    background-color: black;
+    color: white;
+    margin-top: 2.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+.sixth-one>p{
+    padding-left: 0.5vw;
+}
+.sixth-one>p:hover{
+color: green;
+cursor: pointer;
+text-decoration: underline;
+}
+/* <!-- ----------6th section-------- --> */

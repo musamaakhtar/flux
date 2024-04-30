@@ -1,0 +1,80 @@
+@media screen and (min-width:500px) and (max-width:768px){
+    .logo>h1{
+        padding: 1vh 0 0 0;
+    }
+    .list>ul{
+        display: flex;
+        width: 330px;
+        list-style: none;
+        height: 4.5vh;        
+    }   
+    .list>ul>li{
+        padding-top: 8px;
+        box-sizing: border-box;
+        height: 135%;
+        width: 100px;
+        text-align: center;
+        letter-spacing: 1px;
+    }
+.second{
+    height: 65vh;
+    width: auto;
+}
+.second>h1{
+    width: auto;
+}
+.second>p{
+    padding-left: 3vw;
+}
+.third-one>h3{
+    margin-left: 2vw;
+}
+.third-main{
+    height: 140vh;
+}
+.third{
+    width: 48%;
+}
+.third>h4{
+    width: 60%;
+}
+.forth-p{
+    height: 40vh;
+}
+.main{
+    height: 150vh;
+    grid-template-columns: 50% 50%;
+    display: grid;
+    grid-template-rows: 50% 50%;
+    /* row-gap: 10vh;     */
+}
+.same{
+    height: 75vh;
+    width: 95%;
+}
+.fifth-b>button{
+    height: 6vh;
+    width: auto;
+}
+.sixth{
+    margin: 5vh 0 0 2vw; 
+    height: 40vh;
+    width: 96%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
